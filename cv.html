@@ -4,35 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .container{
+            border: 2px solid blue;
+            display: flex;
+        }
+        .main{
+            margin-top: 50px;
+        }
+        img{
+            margin-left: 10px;
+            height: 150px;
+            width: 120px;
+            border-radius: 10px;
+        }
+        .heading{
+            justify-content: center;
+            text-align: center;
+            color: blue;
+            margin-top: 10px;
+        }
+        .personal{
+            display: flex;
+            gap: 250px;
+        }
+        ul{
+            margin-top: 10px;
+            list-style: none;
+            margin-bottom: 20px;
+        }
+        li{
+            margin-top: 10px;
+            border-bottom: solid grey;
+        }
+        .head{
+            margin-top: 20px;
+            color: blue;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <div class="image">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXJA32WU4rBpx7maglqeEtt3ot1tPIRWptxA&s" alt="">
-</div>
-<div>
-    <section class="main-heading">
-    <h2>Pretty</h2>
-</section>
-<section class="main-para">
-    <p><strong>E-mail</strong>pretty@gmail.com</p>
-    <p><strong>Address</strong>Clifton Karachi</p>
-</section>
-</div>
-<div></div>
-    <h2>Profile</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ea vitae accusantium similique blanditiis voluptatibus!</p>
-    <h2>Personal Experience</h2>
-    <p>Bitting</p>
-    <p>Beautiful</p>
-    <p>Cute</p>
-    <h2>Education</h2>
-    <p>Primary</p>
-    <p>Secondary</p>
-    <p>Matric</p>
-    <h2>Languages</h2>
-    <p>China</p>
-    <p>English</p>
-</div>
+        <div class="main">
+            <img src="Majid.jfif" alt="">
+        
+            <div class="heading"><h3><b>Personal Information</b></h3></div>
+            <div class="personal">
+                <ul>
+                    <b><li>Name</li></b>
+                    <b><li>Father's Name</li></b>
+                    <b><li>Date of Birth</li></b>
+                    <b><li>Nationality</li></b>
+                    <b><li>Marital Status</li></b>
+                    <b><li>Religion</li></b>
+                    <b><li>Languages</li></b>
+                    <b><li>Skills</li></b>                    
+                </ul>
+                <ul>
+                    <li>Muhammad Majid</li>
+                    <li>nazim Hussain</li>
+                    <li>25-01-2002</li>
+                    <li>Pakistani</li>
+                    <li>Unmarried</li>
+                    <li>Islam</li>
+                    <li>English, Urdu</li>
+                    <li>Good Communication Skills</li>
+                </ul>
+            </div>
+            <div><b><h2 class="head">Contact</h2></b></div>
+            <div class="personal">
+                <ul>
+                    <b><li>Email</li></b>
+                    <b><li>Phone</li></b>
+                    <b><li>Address</li></b>
+                </ul>
+                <ul>
+                    <li>majidkhan85566@gmail.com</li>
+                    <li>0309-2877435</li>
+                    <li>Punjab Colony, Clifton Karachi</li>
+                </ul>
+            </div>
+            <div><b><h2 class="head">Skills</h2></b></div>
+            <div class="personal">
+                <ul>
+                    <b><li>MOC</li></b>
+                    <b><li>Web Designing</li></b>
+                </ul>
+                <ul>
+                    <li>Word, Excel, PowerPoint</li>
+                    <li>HTML, CSS, Bootstrap</li>
+                </ul>
+        </div>
+        <div><b><h2 class="head">Education</h2></b></div>
+            <div class="personal">
+                <ul class="per">
+                    <b><li>Matriculation</li></b>
+                    <b><li>Intermediate</li></b>
+                </ul>
+                <ul>
+                    <li>Govt Boys Secondary School Qamar-UL-Islam Punjab Colony Clifton Karachi</li>
+                    <li>DJ Sindh Govt Science College</li>
+                </ul>
+        </div>
+    </div>
 </body>
 </html>
